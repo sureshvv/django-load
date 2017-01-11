@@ -13,7 +13,7 @@ setup(
     license='BSD',
     zip_safe=False,
     install_requires=[
-        'django>=1.2',
+        'django>=1.2, <=1.8.6',
     ],
     test_suite='django_load.tests',
 )
